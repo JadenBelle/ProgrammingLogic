@@ -16,6 +16,12 @@ class Program
       string favoriteprogramminglanguage = "Python";
       double programswrittenbefore  =0;
       bool hasprogrammingexperience = true;
+      //Step 4
+      int temp = 72;
+      Console.WriteLine("The Current Temperature is " + temp + "degrees.");
+   
+
+
       
     }
 }
