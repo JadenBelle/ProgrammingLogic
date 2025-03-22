@@ -14,12 +14,13 @@ class Program
       //Step 3 
       int favoritenumber = 7; 
       string favoriteprogramminglanguage = "Python";
-      double programswrittenbefore  =0;
-      bool hasprogrammingexperience = true;
+      double programswrittenbefore  = 0;
+      bool hasprogrammingexperience = false;
       //Step 4
       int temp = 72;
       Console.WriteLine("The Current Temperature is " + temp + "degrees.");
-   
+      //Step 5
+      const string School = "Tri-c";
 
 
       
