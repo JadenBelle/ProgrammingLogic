@@ -1,0 +1,60 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        
+        int myInt = 5; 
+        double myDouble = 9.78; 
+        float myFloat = 3.14f; 
+        char myChar = 'A';
+        bool myBool = true;
+        string myString = "Cat";
+        
+        
+        Console.WriteLine("int: " + myInt);
+        Console.WriteLine("double: " + myDouble);
+        Console.WriteLine("float: " + myFloat);
+        Console.WriteLine("char: " + myChar);
+        Console.WriteLine("bool: " + myBool);
+        Console.WriteLine("string: " + myString);
+        
+        
+        double MyDouble = 9.78;
+        Console.WriteLine("MyDouble: " + MyDouble);
+        int MyInt = (int)MyDouble;
+        Console.WriteLine("MyInt: " + MyInt);
+        
+        Console.WriteLine("What is your Name?");
+        string name = Console.ReadLine();
+        
+        Console.WriteLine("Jaden"); 
+        string ageInput = Console.ReadLine();
+        int age = 19; Convert.ToInt32(ageInput);
+        Console.WriteLine("Hello, " + name + ". You are " + age + " years old.");
+        
+        
+        int sum = 100 + 50;
+        Console.WriteLine("100 + 50 = " + sum);
+        int diff = 100 - 50;
+        Console.WriteLine("100 - 50 = " + diff);
+        int prod - 10 * 5;
+        Console.WriteLine("10 * 5 = " + prod);
+        int quotient = 100 / 5;
+        Console.WriteLine("100 / 5 = " + quotient);
+        int remainder = 100 % 3;
+        Console.WriteLine("100 % 3 = " + remainder;
+        
+        float floatVal = 1.123456789f;
+        double doubleVal = 1.123456789;
+        Console.WriteLine("Float value: " + floatVal);
+        Console.WriteLine("Double value: " + doubleVal);
+        
+        int incrementValue = 10;
+        incrementValue++;
+        Console.WriteLine("Incremented value: " + incrementValue);
+        incrementValue--;
+        Console.WriteLine("Decremented value: " + incrementValue);
+    }
+}
